@@ -1,0 +1,54 @@
+.contenedor-por-character {
+    margin: 0px;
+    background-image: linear-gradient(to top, rgb(161, 159, 159, 0.3) 0%, rgba(200, 195, 195, 0.3) 0%), url("../img/fondo3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.title-character {
+    color: rgb(18, 60, 103);
+    font-size: 50px;
+    font-family: solid, fantasy;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.img-character {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.descripcion-character {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: right;
+}
+
+table {
+    border-collapse: collapse;
+    border: 4px solid grey;
+    background-color: rgba(223, 90, 62, 0.749);
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+    
+}
+
+td {
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    Font-size: 1.5rem;
+}
+
+.datos {
+    width: 100%;
+    background-color: rgb(255, 205, 112);
+}

@@ -1,0 +1,39 @@
+.title-principal {
+    text-align: center;
+    font-size: 3.5rem;
+    background-color: orange;
+    color: rgb(18, 60, 103);
+    font-family: solid, fantasy;
+    width: 100%;
+}
+
+.informacion-relevante {
+    background-color: rgb(18, 60, 103);
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+/* esto es para pantalla grande*/
+
+@media screen and (min-width: 720px) {
+
+    .informacion-relevante {
+       display: grid;
+       grid-template-columns: 50% 50%;
+    }
+
+}
+
+@media screen and (min-width: 1070px) {
+
+    .informacion-relevante {
+       display: grid;
+       grid-template-columns: 30% 30% 30%;
+
+    }
+}
+
+
