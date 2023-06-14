@@ -10,10 +10,9 @@
 .informacion-relevante {
     background-color: rgb(18, 60, 103);
     width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    justify-content: center;
-  
 }
 
 /* esto es para pantalla grande*/
@@ -24,7 +23,6 @@
        display: grid;
        grid-template-columns: 50% 50%;
     }
-
 }
 
 @media screen and (min-width: 1070px) {
