@@ -76,21 +76,21 @@ export default function Login() {
 
       <div className="contenedor-inicial">
 
-        <h1 className='bienvenido'>¡BIENVENIDO!</h1>
+        <h1 className='bienvenido'>¡WELCOME!</h1>
 
-        <label>Usuario:</label>
+        <label>User:</label>
         <input
           name="usuario"
-          placeholder='Ingrese su usuario'
+          placeholder='Write your username'
           type="text"
           onChange={(e) => ingresoUsuario(e.target.value)}>
         </input>
 
 
-        <label>Contraseña:</label>
+        <label>Password:</label>
         <input
           name="contraseña"
-          placeholder='Ingrese su contraseña'
+          placeholder='Type your password'
           type="password"
           onChange={(e) => ingresoContraseña(e.target.value)}
           className={contraseñaError ? "input-error" : "input-nomal"}
@@ -99,17 +99,17 @@ export default function Login() {
 
         {contraseñaError &&
           <label className="label-error">
-            La contraseña debe ser de más de 6 carácteres
+            Password must be more than 6 characters
           </label>
         }
 
-        <button className="boton-ingresar" onClick={verificar}> Ingresar
+        <button className="boton-ingresar" onClick={verificar}> Enter
         </button>
 
 
         {hasError &&
           <label className="error-general">
-            ¡El usuario o la contraseña no es válido!
+            ¡The username or password is invalid!!
           </label>
         }
       </div>

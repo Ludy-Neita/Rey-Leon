@@ -19,12 +19,7 @@
     margin: 0px;
 }
 
-@media screen and (min-width: 720px) {
 
-    .title-character {
-        font-size: 50px;
-    }
-}
 
 .img-character {
     width: 400px;
@@ -48,14 +43,31 @@ table {
     
 }
 
-td {
-    padding: 10px;
+tr {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
     Font-size: 1.2rem;
 }
 
+
+td {
+    padding: 10px;
+}
+
+
 .datos {
     width: 100%;
     background-color: rgb(255, 205, 112);
+}
+
+@media screen and (min-width: 720px) {
+
+    .title-character {
+        font-size: 50px;
+    }
+
+    tr {
+        Font-size: 1.5rem;
+    }
+    
 }

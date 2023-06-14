@@ -33,15 +33,15 @@ export default function Detail() {
               <td className="datos">{animal} </td>
             </tr>
             <tr>
-              <td>Tipo</td>
+              <td>Type</td>
               <td className="datos">{tipo}</td>
             </tr>
             <tr>
-              <td>Descripcion</td>
+              <td>Description</td>
               <td className="datos">{descripcion} </td>
             </tr>
             <tr>
-              <td>Personalidad</td>
+              <td>Personality</td>
               <td className="datos">{personalidad}</td>
             </tr>
           </table>

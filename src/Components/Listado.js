@@ -8,7 +8,7 @@ export default function Listado() {
 
         <div>
 
-            <h1 className="title-principal"> PERSONAJES DEL REY LEÓN</h1>
+            <h1 className="title-principal"> CHARACTERS OF THE LION KING</h1>
 
                 <div className="informacion-relevante">
 
