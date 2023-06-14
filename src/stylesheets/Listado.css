@@ -1,9 +1,9 @@
 .title-principal {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     background-color: orange;
     color: rgb(18, 60, 103);
-    font-family: solid, fantasy;
+    font-family: solid, Arial, Helvetica, sans-serif;
     width: 100%;
 }
 
@@ -22,6 +22,11 @@
     .informacion-relevante {
        display: grid;
        grid-template-columns: 50% 50%;
+    }
+
+    .title-principal {
+
+        font-size: 3.5rem;
     }
 }
 

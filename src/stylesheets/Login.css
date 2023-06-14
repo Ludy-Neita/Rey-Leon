@@ -51,13 +51,13 @@
 .bienvenido {
     font-size: 25px;
     color: rgb(18, 60, 103);
-    font-family: solid, fantasy;
+    font-family: solid, Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 label {
     font-size: 20px;
-    font-family: solid, fantasy;
+    font-family: solid, Arial, Helvetica, sans-serif;
     box-shadow: none;
 }
 

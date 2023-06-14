@@ -10,13 +10,20 @@
 
 .title-character {
     color: rgb(18, 60, 103);
-    font-size: 50px;
-    font-family: solid, fantasy;
+    font-size: 25px;
+    font-family: solid, Arial, Helvetica, sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0px;
+}
+
+@media screen and (min-width: 720px) {
+
+    .title-character {
+        font-size: 50px;
+    }
 }
 
 .img-character {
